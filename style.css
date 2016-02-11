@@ -55,3 +55,9 @@ img {
   border: 1px solid #E3A20B;
   -webkit-border-radius: 0px 20px 0px 20px;-moz-border-radius: 0px 20px 0px 20px;border-radius: 0px 20px 0px 20px;
 }
+h2 {
+  font-size: 1em;
+}
+#mc_embed_signup {
+  margin-bottom: 1em;
+}
