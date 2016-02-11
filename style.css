@@ -9,7 +9,7 @@ body {
   overflow-y: hidden;
   background-image: -webkit-radial-gradient(50% 50%, circle, white, #bbb);
   background-image: radial-gradient(circle at 50% 50%, white, #bbb);
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   color: #555;
 }
 img {
@@ -27,6 +27,7 @@ img {
   width: 1px;
   height: 1px;
   margin: auto;
+  opacity: 0.9;
 }
 .bg-top-hud {
   position: fixed;
