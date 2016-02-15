@@ -61,3 +61,10 @@ h2 {
 #mc_embed_signup {
   margin-bottom: 1em;
 }
+a {
+  color: #E3A20B;
+}
+#twitter-logo {
+  position: relative;
+  top:-2px;
+}
