@@ -24,8 +24,8 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: 1;
-  width: 1px;
-  height: 1px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0.9;
 }
@@ -55,11 +55,26 @@ img {
   border: 1px solid #E3A20B;
   -webkit-border-radius: 0px 20px 0px 20px;-moz-border-radius: 0px 20px 0px 20px;border-radius: 0px 20px 0px 20px;
 }
+h1 {
+  margin-bottom: 0;
+}
 h2 {
   font-size: 1em;
 }
+#bird {
+  margin-top: .5em;
+}
 #mc_embed_signup {
   margin-bottom: 1em;
+  width: 50%;
+}
+#sponsorship {
+  float: right;
+  text-align: right;
+  width: 45%;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: .8em;
 }
 a {
   color: #E3A20B;
@@ -67,4 +82,7 @@ a {
 #twitter-logo {
   position: relative;
   top:-2px;
+}
+#canvas2d {
+  height:1000px;
 }
