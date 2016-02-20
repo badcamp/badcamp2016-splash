@@ -9,9 +9,68 @@ body {
   overflow-y: hidden;
   background-image: -webkit-radial-gradient(50% 50%, circle, white, #bbb);
   background-image: radial-gradient(circle at 50% 50%, white, #bbb);
-  font-family: Tahoma, Geneva, sans-serif;
-  color: #555;
 }
+
+/*Helper classes*/
+
+.element-invisible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+/*Typography styles*/
+
+h1,
+h2,
+p,
+input[type="submit"],
+input:placeholder-shown {
+  color: #ffffff;
+  font-family: 'spacemanregular', Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em ;
+}
+
+h1 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+span {
+  font-family: 'spacemanbold', Helvetica, sans-serif;
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -24,9 +83,8 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: 1;
-  width: 1px;
+  width: 100%;
   height: 1px;
-  margin: auto;
   opacity: 0.9;
 }
 .bg-top-hud {
@@ -49,15 +107,7 @@ img {
 .hud-btm-img {
   opacity: 0.6;
 }
-#c2a {
-  text-align: center;
-  background-color: white;
-  border: 1px solid #E3A20B;
-  -webkit-border-radius: 0px 20px 0px 20px;-moz-border-radius: 0px 20px 0px 20px;border-radius: 0px 20px 0px 20px;
-}
-h2 {
-  font-size: 1em;
-}
+
 #mc_embed_signup {
   margin-bottom: 1em;
 }
@@ -67,4 +117,90 @@ a {
 #twitter-logo {
   position: relative;
   top:-2px;
+}
+
+.announcement {
+  margin: auto;
+  position: relative;
+  top: 142px;
+  display: block;
+}
+@media all and (min-width: 700px) {
+  .announcement {
+    width: 534px;
+  }
+}
+@media all and (max-width: 700px) {
+  .announcement {
+    width: 100%;
+  }
+}
+
+.description {
+  border-top: 3px solid #3B454D;
+  border-bottom: 3px solid #3B454D;
+  padding: 10px 0;
+}
+
+.location {
+  margin-bottom: 20px;
+}
+
+/*Form field styling with mobile first*/
+
+.form__field-group,
+.form__field {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #272E33;
+  border-top: 1px solid #9A9A99;
+  border-bottom: 1px solid #9A9A99;
+}
+input[type="email"] {
+  border-left: 1px solid #9A9A99;
+  border-right:  1px solid #9A9A99;
+}
+
+input[type="text"] {
+  border-left: none;
+  border-right: none;
+}
+
+input[type="submit"] {
+  background-color: #ABC3DE;
+  border: 1px solid #9A9A99;
+  color: #162D41;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+input:placeholder-shown {
+  text-transform: none;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+@media all and (min-width: 700px) {
+  .form__field-group {
+    width: 400px;
+  }
+  .form__field {
+    width: 50%;
+    float: left;
+  }
+  .submit {
+    float: left;
+    width: 120px;
+  }
 }
