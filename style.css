@@ -184,7 +184,7 @@ input[type="submit"] {
   letter-spacing: 0.1em;
 }
 
-input:placeholder-shown {
+input[placeholder]{
   text-transform: none;
   font-size: 14px;
   color: #fff;
