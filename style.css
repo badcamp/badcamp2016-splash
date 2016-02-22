@@ -44,17 +44,17 @@ h1,
 h2,
 p,
 input[type="submit"],
-input:placeholder-shown {
+input:placeholder-shown,
+.mce_inline_error,
+#mce-error-response {
   color: #ffffff;
   font-family: 'spacemanregular', Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2em ;
 }
 
-.mce_inline_error {
-  font-family: 'spacemanregular', Helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.2em ;
+#mce-error-response {
+  background-color: #6B0505;
 }
 
 h1 {
