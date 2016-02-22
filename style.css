@@ -51,6 +51,12 @@ input:placeholder-shown {
   letter-spacing: 0.2em ;
 }
 
+.mce_inline_error {
+  font-family: 'spacemanregular', Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em ;
+}
+
 h1 {
   font-size: 27px;
   margin-bottom: 20px;
@@ -147,7 +153,10 @@ a {
 }
 
 #canvas2d {
-  height:1500px;
+  height: 1500px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-28%);
 }
 
 /*Form field styling with mobile first*/
