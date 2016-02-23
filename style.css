@@ -128,7 +128,8 @@ a {
 .announcement {
   margin: auto;
   position: relative;
-  top: 142px;
+  top: 115px;
+
 
   
 }
@@ -221,5 +222,10 @@ input[placeholder]{
     float: left;
     width: 120px;
   }
+}
+
+#c2a{
+
+    zoom: 1.25;
 }
 
