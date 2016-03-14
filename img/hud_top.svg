@@ -1,61 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1920px" height="165.65px" viewBox="0 0 1920 165.65" enable-background="new 0 0 1920 165.65" xml:space="preserve">
-<g>
-	<g>
-		<path fill="none" stroke="#F89A1D" stroke-width="3" stroke-miterlimit="10" d="M1251.795,368.906"/>
-	</g>
-</g>
-<g>
-	<defs>
-		<rect id="SVGID_1_" width="1920" height="165.65"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	<g clip-path="url(#SVGID_2_)">
-		<g id="Layer_2">
-			<g>
-				<g>
-					<g>
-						<g>
-							<g>
-								<polygon fill="#FF9A00" points="632.458,118.375 595.042,90.542 545.583,89.69 								"/>
-							</g>
-						</g>
-					</g>
-				</g>
-			</g>
-		</g>
-		<radialGradient id="SVGID_3_" cx="960" cy="24.4531" r="689.8904" gradientUnits="userSpaceOnUse">
-			<stop  offset="0.4" style="stop-color:#555555"/>
-			<stop  offset="1" style="stop-color:#333333"/>
-		</radialGradient>
-		<path fill="url(#SVGID_3_)" stroke="#FF9A00" stroke-width="3" stroke-miterlimit="10" d="M960.045-80h-0.091h-970V40
-			c0,0,57.667,14,163,22.667C236.991,69.581,600.392,80,600.392,80l49.562,39c0,0,161.615,9.906,310,9.906h0.091
-			c148.384,0,310-9.906,310-9.906l49.562-39c0,0,363.402-10.419,447.438-17.333c105.332-8.667,163-22.667,163-22.667V-80H960.045z"
-			/>
-		<path opacity="0.6" fill="none" stroke="#F89A1D" stroke-width="3" stroke-miterlimit="10" enable-background="new    " d="
-			M-10.045,52c0,0,57.667,14,163,22.667c62.641,5.154,359.991,16.142,359.991,16.142l127.163,41.65c0,0,171.461,9.447,319.846,9.447
-			"/>
-		<g id="Layer_2_1_">
-			<g>
-				<g>
-					<g>
-						<g>
-							<g>
-								<polygon fill="#FF9A00" points="1374.326,89.69 1324.868,90.542 1287.451,118.375 								"/>
-							</g>
-						</g>
-					</g>
-				</g>
-			</g>
-		</g>
-		<path opacity="0.6" fill="none" stroke="#F89A1D" stroke-width="3" stroke-miterlimit="10" enable-background="new    " d="
-			M1929.955,52c0,0-57.667,14-163,22.667c-62.641,5.154-359.99,16.142-359.99,16.142l-127.164,41.65
-			c0,0-171.461,9.447-319.846,9.447"/>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920px" height="144px" viewBox="0 0 1920 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>hud_top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="165.65"></rect>
+        <radialGradient cx="50.0000258%" cy="50.0000479%" fx="50.0000258%" fy="50.0000479%" r="35.5596928%" id="radialGradient-3">
+            <stop stop-color="#555555" offset="40%"></stop>
+            <stop stop-color="#333333" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hud_top" sketch:type="MSLayerGroup">
+            <g id="Clipped">
+                <mask id="mask-2" sketch:name="SVGID_1_" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="SVGID_1_"></g>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(-11.000000, -80.000000)">
+                        <g id="Layer_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(556.000000, 169.000000)">
+                            <path d="M87.458,29.375 L50.042,1.542 L0.583,0.69 L87.458,29.375 Z" id="Shape" fill="#FF9A00" sketch:type="MSShapeGroup"></path>
+                        </g>
+                        <path d="M971.045,0 L970.954,0 L0.954,0 L0.954,120 C0.954,120 58.621,134 163.954,142.667 C247.991,149.581 611.392,160 611.392,160 L660.954,199 C660.954,199 822.569,208.906 970.954,208.906 L971.045,208.906 C1119.429,208.906 1281.045,199 1281.045,199 L1330.607,160 C1330.607,160 1694.009,149.581 1778.045,142.667 C1883.377,134 1941.045,120 1941.045,120 L1941.045,0 L971.045,0 L971.045,0 Z" id="Shape" stroke="#FF9A00" stroke-width="3" fill="url(#radialGradient-3)" fill-rule="evenodd" sketch:type="MSShapeGroup"></path>
+                        <path d="M0.955,132 C0.955,132 58.622,146 163.955,154.667 C226.596,159.821 523.946,170.809 523.946,170.809 L651.109,212.459 C651.109,212.459 822.57,221.906 970.955,221.906" id="Shape" stroke="#F89A1D" stroke-width="3" opacity="0.6" fill="none" sketch:type="MSShapeGroup"></path>
+                        <g id="Layer_2_1_" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(1298.000000, 169.000000)">
+                            <path d="M87.326,0.69 L37.868,1.542 L0.451,29.375 L87.326,0.69 Z" id="Shape" fill="#FF9A00" sketch:type="MSShapeGroup"></path>
+                        </g>
+                        <g id="Shape" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(786.000000, 152.000000)">
+                            <g id="Page-1" fill="#FF9A00" sketch:type="MSShapeGroup">
+                                <path d="M122.466019,29.8 L122.466019,53.2 L122.466019,55 L126.067961,55 L126.067961,53.2 L126.067961,29.8 L126.067961,28 L122.466019,28 L122.466019,29.8 L122.466019,29.8 L122.466019,29.8 Z M244.932039,29.8 L244.932039,53.2 L244.932039,55 L248.533981,55 L248.533981,53.2 L248.533981,29.8 L248.533981,28 L244.932039,28 L244.932039,29.8 L244.932039,29.8 L244.932039,29.8 Z M367.398058,27 L367.398058,50.4 L367.398058,52.2 L371,52.2 L371,50.4 L371,27 L371,25.2 L367.398058,25.2 L367.398058,27 L367.398058,27 L367.398058,27 Z M0,27 L0,50.4 L0,52.2 L3.60194175,52.2 L3.60194175,50.4 L3.60194175,27 L3.60194175,25.2 L0,25.2 L0,27 L0,27 L0,27 Z M153.082524,42.4 L153.082524,53.2 L153.082524,55 L156.684466,55 L156.684466,53.2 L156.684466,42.4 L156.684466,40.6 L153.082524,40.6 L153.082524,42.4 L153.082524,42.4 L153.082524,42.4 Z M183.699029,43.4 L183.699029,54.2 L183.699029,56 L187.300971,56 L187.300971,54.2 L187.300971,43.4 L187.300971,41.6 L183.699029,41.6 L183.699029,43.4 L183.699029,43.4 L183.699029,43.4 Z M214.315534,42.4 L214.315534,53.2 L214.315534,55 L217.917476,55 L217.917476,53.2 L217.917476,42.4 L217.917476,40.6 L214.315534,40.6 L214.315534,42.4 L214.315534,42.4 L214.315534,42.4 Z M275.548544,41.4 L275.548544,52.2 L275.548544,54 L279.150485,54 L279.150485,52.2 L279.150485,41.4 L279.150485,39.6 L275.548544,39.6 L275.548544,41.4 L275.548544,41.4 L275.548544,41.4 Z M306.165049,41.4 L306.165049,52.2 L306.165049,54 L309.76699,54 L309.76699,52.2 L309.76699,41.4 L309.76699,39.6 L306.165049,39.6 L306.165049,41.4 L306.165049,41.4 L306.165049,41.4 Z M336.781553,41.4 L336.781553,52.2 L336.781553,54 L340.383495,54 L340.383495,52.2 L340.383495,41.4 L340.383495,39.6 L336.781553,39.6 L336.781553,41.4 L336.781553,41.4 L336.781553,41.4 Z M91.8495146,42.4 L91.8495146,53.2 L91.8495146,55 L95.4514563,55 L95.4514563,53.2 L95.4514563,42.4 L95.4514563,40.6 L91.8495146,40.6 L91.8495146,42.4 L91.8495146,42.4 L91.8495146,42.4 Z M61.2330097,41.4 L61.2330097,52.2 L61.2330097,54 L64.8349515,54 L64.8349515,52.2 L64.8349515,41.4 L64.8349515,39.6 L61.2330097,39.6 L61.2330097,41.4 L61.2330097,41.4 L61.2330097,41.4 Z M30.6165049,39.8 L30.6165049,50.5999997 L30.6165049,52.3999996 L34.2184466,52.3999996 L34.2184466,50.5999997 L34.2184466,39.8 L34.2184466,38 L30.6165049,38 L30.6165049,39.8 L30.6165049,39.8 L30.6165049,39.8 Z M172.893204,0 L198.106796,0 L185.5,12.6 L172.893204,0 L172.893204,0 L172.893204,0 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                        <path d="M1940.955,132 C1940.955,132 1883.288,146 1777.955,154.667 C1715.314,159.821 1417.965,170.809 1417.965,170.809 L1290.801,212.459 C1290.801,212.459 1119.34,221.906 970.955,221.906" id="Shape" stroke="#F89A1D" stroke-width="3" opacity="0.6" fill="none" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
